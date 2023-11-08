@@ -1,0 +1,15 @@
+{
+  "name": "Rohan",
+  "email": "hello@rohan.com",
+  "pName": "Blackberry" ,
+  "products": ["Blackberry", "Samsung Note 8"] ,
+  "URL" : "https://rahulshettyacademy.com/angularpractice/" ,
+  "password": "pass",
+  "countryName":"india"
+
+
+
+
+
+
+}
