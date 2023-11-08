@@ -6,17 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cyrun": "node_modules\\.bin\\cypress run",
-    "HeadTest" : "node_modules\\.bin\\cypress run -- --headed",
-    "ChromeTest" : "npm run cyrun -- --browser chrome"
-
-
-
-
+    "HeadTest": "node_modules\\.bin\\cypress run -- --headed",
+    "ChromeTest": "npm run cyrun -- --browser chrome"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^13.3.0",
     "cypress-iframe": "^1.0.1"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^19.0.1"
   }
 }
