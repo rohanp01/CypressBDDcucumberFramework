@@ -9,13 +9,18 @@
     "HeadTest": "node_modules\\.bin\\cypress run -- --headed",
     "ChromeTest": "npm run cyrun -- --browser chrome"
   },
+  "cypress-cucumber-preprocessor": {
+    "json": {
+      "enabled": true,
+      "output": "cypress/cypressCucumberReports/results.json"
+    }
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^19.1.1",
+    "@cypress/browserify-preprocessor": "^3.0.2",
     "cypress": "^13.3.0",
     "cypress-iframe": "^1.0.1"
-  },
-  "dependencies": {
-    "@badeball/cypress-cucumber-preprocessor": "^19.0.1"
   }
 }
